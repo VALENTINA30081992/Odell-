@@ -243,3 +243,42 @@ li {
     background: url("../images/icons/SubMenu.png") no-repeat right center;
   }
 }
+
+.first-screen {
+  &__body {
+    background-image: url("../images/OurSpecialists.jpg");
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .container {
+      display: flex;
+      align-items: center;
+      min-height: 510px;
+    }
+  }
+
+  &__text {
+    padding: 15px;
+    border-radius: 6px;
+    background: rgba(#fff, 0.5);
+    width: 554px;
+    margin-left: 375px;
+
+    h1 {
+      font-family: "Manrope", sans-serif;
+      font-size: 50px;
+      line-height: 64px;
+      color: #0a2540;
+      font-weight: 400;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      font-weight: 600;
+      font-size: 26px;
+      line-height: 39px;
+      color: #12958b;
+    }
+  }
+}

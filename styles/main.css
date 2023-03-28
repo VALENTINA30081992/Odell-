@@ -212,4 +212,37 @@ li {
 .menu-item-has-children > a {
   padding-right: 16px;
   background: url("../images/icons/SubMenu.png") no-repeat right center;
+}
+
+.first-screen__body {
+  background-image: url("../images/OurSpecialists.jpg");
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.first-screen__body .container {
+  display: flex;
+  align-items: center;
+  min-height: 510px;
+}
+.first-screen__text {
+  padding: 15px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.5);
+  width: 554px;
+  margin-left: 375px;
+}
+.first-screen__text h1 {
+  font-family: "Manrope", sans-serif;
+  font-size: 50px;
+  line-height: 64px;
+  color: #0a2540;
+  font-weight: 400;
+}
+.first-screen__text h2 {
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 39px;
+  color: #12958b;
 }/*# sourceMappingURL=main.css.map */
