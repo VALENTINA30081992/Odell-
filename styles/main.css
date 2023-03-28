@@ -46,7 +46,7 @@ li {
 }
 .header__container {
   padding: 0 15px;
-  max-width: 1170px;
+  max-width: 1192px;
   margin: 0 auto;
   background: none;
 }
@@ -219,17 +219,18 @@ li {
   background-position: right center;
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 510px;
 }
 .first-screen__body .container {
   display: flex;
   align-items: center;
-  min-height: 510px;
+  height: auto;
 }
 .first-screen__text {
-  padding: 15px;
+  margin-top: 109px;
   border-radius: 6px;
   background: rgba(255, 255, 255, 0.5);
-  width: 554px;
+  width: 565px;
   margin-left: 375px;
 }
 .first-screen__text h1 {
@@ -237,7 +238,7 @@ li {
   font-size: 50px;
   line-height: 64px;
   color: #0a2540;
-  font-weight: 400;
+  font-weight: 800;
 }
 .first-screen__text h2 {
   margin-bottom: 20px;
