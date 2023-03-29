@@ -330,7 +330,7 @@ li {
       font-family: "Manrope", sans-serif;
       font-size: 24px;
       line-height: 33px;
-      font-weight: 400;
+      font-weight: 800;
       margin-bottom: 5px;
     }
     p {
@@ -463,12 +463,15 @@ li {
     font-size: 38px;
     line-height: 52px;
     margin-bottom: 30px;
+    font-weight: 800;
   }
 
   h3 {
     font-size: 24px;
     line-height: 33px;
     margin-bottom: 25px;
+    font-weight: 800;
+    letter-spacing: 0.7px;
   }
   h4 {
     margin-bottom: 10px;
@@ -533,7 +536,7 @@ li {
 
     input {
       flex-basis: 50%;
-      margin-bottom: 0;
+      margin-bottom: 5px;
       height: 60px;
       width: 100%;
       border-radius: 6px;
@@ -543,6 +546,9 @@ li {
       font-size: 15px;
       line-height: 23px;
       font-weight: 300;
+      border: none;
+      outline: none;
+      cursor: pointer;
     }
   }
 
@@ -572,7 +578,7 @@ li {
     max-width: 187px;
     font-size: 12px;
     line-height: 18px;
-    margin-left: 18px;
+    margin-left: 10px;
   }
   &__btn {
     display: flex;
