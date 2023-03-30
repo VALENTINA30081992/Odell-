@@ -640,7 +640,6 @@ li {
   margin-top: 30px;
 }
 .widget__social {
-  background-color: #1da1f2;
   padding: 0 8px;
   align-self: flex-end;
   text-align: right;
@@ -675,4 +674,32 @@ li {
 }
 .social__item img {
   display: block;
+}
+
+.back-top {
+  display: none;
+  position: fixed;
+  right: 20px;
+  bottom: 40px;
+  width: 3em;
+  height: 3em;
+  background-color: rgba(18, 149, 139, 0.4);
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.back-top:hover {
+  background-color: rgba(18, 149, 139, 0.9);
+}
+.back-top a {
+  font-size: 2em;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url("../images/icons/top.svg") no-repeat center center;
+  opacity: 0.4;
+  transition: 0.3s;
+}
+.back-top a:hover {
+  opacity: 0.8;
+  background: url("../images/icons/top.svg") no-repeat center 46%;
 }/*# sourceMappingURL=main.css.map */
