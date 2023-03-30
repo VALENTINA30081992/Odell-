@@ -37,6 +37,11 @@ ul,
 li {
   list-style: none;
 }
+.container-medium {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0;
+}
 
 .telephone a {
   position: relative;
@@ -44,7 +49,7 @@ li {
   padding-left: 24px;
   font-weight: 600;
   font-size: 18px;
-  color: #000;
+  color: #fff;
   z-index: 230;
   &:hover {
     filter: brightness(0.65);
@@ -352,7 +357,7 @@ li {
   }
 
   &__left {
-    margin-left: 350px;
+    margin-left: 360px;
     form > * {
       margin-bottom: 15px;
       margin-right: 1px;
@@ -383,7 +388,7 @@ li {
   }
 
   .btn__secondary {
-    width: 98px;
+    width: 97px;
     height: 60px;
   }
   &__details {
@@ -396,6 +401,9 @@ li {
         color: #12958a89;
       }
     }
+  }
+  .top {
+    margin-top: 30px;
   }
 
   &__right {
@@ -417,11 +425,7 @@ li {
 }
 
 //////////////////////////
-.container-medium {
-  max-width: 1170px;
-  margin: 0 auto;
-  padding: 0;
-}
+
 .content {
   background: #fff;
 
@@ -439,7 +443,7 @@ li {
     font-size: 18px;
     line-height: 27px;
     font-weight: 400;
-    margin-bottom: 18px;
+    margin-bottom: 10px;
   }
   strong {
     font-weight: 500;
@@ -484,7 +488,9 @@ li {
     font-size: 18px;
     line-height: 25px;
     color: #f2542d;
+    font-weight: 800;
     margin-bottom: 30px;
+    letter-spacing: 0.6px;
   }
 
   &__img {
@@ -519,8 +525,7 @@ li {
     border-radius: 6px;
     border: 1px solid #12958b;
     padding: 53px 30px;
-
-    height: 520px;
+    margin-top: 18px;
     p {
       font-weight: 300;
       font-size: 14px;
@@ -595,6 +600,8 @@ li {
     background: #f6f9fc url("../images/icons/right-quote.png") no-repeat right
       10px top 77px;
     padding: 40px;
+    margin-top: 18px;
+
     p {
       font-size: 16px;
       line-height: 24px;
@@ -624,17 +631,16 @@ li {
   }
 }
 ///////////////
-///
-.container-medium {
-  max-width: 1170px;
-  margin: 0 auto;
-  padding: 0;
-}
+
 .footer {
   background: #0a2540;
   color: #adbdcc;
+
   a {
     color: #adbdcc;
+    &:hover {
+      color: #fff;
+    }
   }
 
   &__widgets {
@@ -651,26 +657,31 @@ li {
       text-align: center;
       &__logo {
         max-height: 90px;
-        margin-bottom: 27px;
         img {
           height: 100%;
           object-fit: cover;
         }
       }
+      .telephone {
+        margin-top: 17px;
+        text-align: start;
+      }
+      .telephone a {
+        color: #fff;
+        font-size: 20px;
+      }
 
-      .widget__body {
-        padding-top: 30px;
+      .widget__adress {
+        padding-top: 15px;
         font-family: "Poppins", sans-serif;
-        font-size: 15px;
-        color: #425466;
+        font-size: 12px;
+        color: #adbdcc;
         font-weight: 300;
         line-height: 20px;
+        text-align: start;
       }
     }
   }
-}
-.widget {
-  flex-basis: auto;
 }
 
 .footer {
@@ -693,6 +704,7 @@ li {
 }
 
 .widget {
+  font-family: "Poppins", sans-serif;
   h2,
   h3 {
     margin-bottom: 15px;
@@ -705,7 +717,8 @@ li {
     font-size: 16px;
   }
   &__body {
-    padding-top: 30px;
+    padding-top: 23px;
+    padding-left: 5px;
   }
 
   &__privacy {
@@ -713,6 +726,7 @@ li {
   }
 
   &__social {
+    background-color: #1da1f2;
     padding: 0 8px;
     align-self: flex-end;
     text-align: right;
@@ -720,6 +734,7 @@ li {
 
     h4 {
       flex-grow: 100%;
+      margin-top: 0;
       margin-bottom: 21px;
       font-weight: 300;
     }
@@ -750,7 +765,4 @@ li {
       display: block;
     }
   }
-}
-.telephone a {
-  color: #fff;
 }

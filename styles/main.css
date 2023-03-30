@@ -35,13 +35,19 @@ li {
   list-style: none;
 }
 
+.container-medium {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0;
+}
+
 .telephone a {
   position: relative;
   background: url("../images/icons/Telephone.png") no-repeat left center;
   padding-left: 24px;
   font-weight: 600;
   font-size: 18px;
-  color: #000;
+  color: #fff;
   z-index: 230;
 }
 .telephone a:hover {
@@ -305,7 +311,7 @@ li {
   padding: 52px 15px 49px;
 }
 .find-job__left {
-  margin-left: 350px;
+  margin-left: 360px;
 }
 .find-job__left form > * {
   margin-bottom: 15px;
@@ -333,7 +339,7 @@ li {
   color: #a2a2a2;
 }
 .find-job .btn__secondary {
-  width: 98px;
+  width: 97px;
   height: 60px;
 }
 .find-job__details {
@@ -346,6 +352,9 @@ li {
 }
 .find-job__details a:hover {
   color: rgba(18, 149, 138, 0.537254902);
+}
+.find-job .top {
+  margin-top: 30px;
 }
 .find-job__right {
   color: #fff;
@@ -365,12 +374,6 @@ li {
   justify-content: space-between;
 }
 
-.container-medium {
-  max-width: 1170px;
-  margin: 0 auto;
-  padding: 0;
-}
-
 .content {
   background: #fff;
 }
@@ -386,7 +389,7 @@ li {
   font-size: 18px;
   line-height: 27px;
   font-weight: 400;
-  margin-bottom: 18px;
+  margin-bottom: 10px;
 }
 .post strong {
   font-weight: 500;
@@ -425,7 +428,9 @@ li {
   font-size: 18px;
   line-height: 25px;
   color: #f2542d;
+  font-weight: 800;
   margin-bottom: 30px;
+  letter-spacing: 0.6px;
 }
 .post__img {
   display: flex;
@@ -453,7 +458,7 @@ li {
   border-radius: 6px;
   border: 1px solid #12958b;
   padding: 53px 30px;
-  height: 520px;
+  margin-top: 18px;
 }
 .post__form p {
   font-weight: 300;
@@ -521,6 +526,7 @@ li {
 .post__testimonials {
   background: #f6f9fc url("../images/icons/right-quote.png") no-repeat right 10px top 77px;
   padding: 40px;
+  margin-top: 18px;
 }
 .post__testimonials p {
   font-size: 16px;
@@ -547,18 +553,15 @@ li {
   line-height: 23px;
 }
 
-.container-medium {
-  max-width: 1170px;
-  margin: 0 auto;
-  padding: 0;
-}
-
 .footer {
   background: #0a2540;
   color: #adbdcc;
 }
 .footer a {
   color: #adbdcc;
+}
+.footer a:hover {
+  color: #fff;
 }
 .footer__widgets {
   display: flex;
@@ -576,23 +579,27 @@ li {
 }
 .footer__widgets--first__logo {
   max-height: 90px;
-  margin-bottom: 27px;
 }
 .footer__widgets--first__logo img {
   height: 100%;
   object-fit: cover;
 }
-.footer__widgets--first .widget__body {
-  padding-top: 30px;
+.footer__widgets--first .telephone {
+  margin-top: 17px;
+  text-align: start;
+}
+.footer__widgets--first .telephone a {
+  color: #fff;
+  font-size: 20px;
+}
+.footer__widgets--first .widget__adress {
+  padding-top: 15px;
   font-family: "Poppins", sans-serif;
-  font-size: 15px;
-  color: #425466;
+  font-size: 12px;
+  color: #adbdcc;
   font-weight: 300;
   line-height: 20px;
-}
-
-.widget {
-  flex-basis: auto;
+  text-align: start;
 }
 
 .footer__column {
@@ -612,6 +619,9 @@ li {
   font-weight: 400;
 }
 
+.widget {
+  font-family: "Poppins", sans-serif;
+}
 .widget h2,
 .widget h3 {
   margin-bottom: 15px;
@@ -623,12 +633,14 @@ li {
   font-size: 16px;
 }
 .widget__body {
-  padding-top: 30px;
+  padding-top: 23px;
+  padding-left: 5px;
 }
 .widget__privacy {
   margin-top: 30px;
 }
 .widget__social {
+  background-color: #1da1f2;
   padding: 0 8px;
   align-self: flex-end;
   text-align: right;
@@ -636,6 +648,7 @@ li {
 }
 .widget__social h4 {
   flex-grow: 100%;
+  margin-top: 0;
   margin-bottom: 21px;
   font-weight: 300;
 }
@@ -662,8 +675,4 @@ li {
 }
 .social__item img {
   display: block;
-}
-
-.telephone a {
-  color: #fff;
 }/*# sourceMappingURL=main.css.map */
