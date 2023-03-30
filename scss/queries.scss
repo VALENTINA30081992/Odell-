@@ -132,7 +132,6 @@
       display: flex;
       justify-content: flex-end;
       align-items: center;
-      background-color: aqua;
 
       li {
         padding: 0;
@@ -249,7 +248,7 @@
     }
   }
   .sub-menu {
-    position: absolute;
+    position: relative;
     margin: 0;
     display: block;
     width: fit-content;
@@ -275,7 +274,7 @@
   .menu-item-has-children {
     &::after {
       content: "";
-      display: none;
+      display: block;
     }
 
     &:hover > .sub-menu {
