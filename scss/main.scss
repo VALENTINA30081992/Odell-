@@ -56,7 +56,43 @@ li {
     -webkit-filter: brightness(0.65);
   }
 }
-//////////////////////////
+.btn {
+  flex-shrink: 0;
+  border: 1 / $width * 100vw solid #12958b;
+  border-radius: 6 / $width * 100vw;
+  overflow: hidden;
+  text-align: center;
+
+  a,
+  button {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 18 / $width * 100vw 26 / $width * 100vw;
+    font-weight: 500;
+    font-size: 16 / $width * 100vw;
+    line-height: 24 / $width * 100vw;
+    cursor: pointer;
+    transition: 0.7s;
+  }
+  &__primary > *,
+  &__secondary > *:hover {
+    background: #12958b;
+    color: #f6f9fc;
+  }
+
+  &__primary > *:hover,
+  &__secondary > * {
+    background: #f6f9fc;
+    color: #12958b;
+    border-radius: 6 / $width * 100vw;
+    border: none;
+    outline: none;
+  }
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/**********SECTION HEADER****************/
+/// TOP///
 .header {
   &__input,
   &__lines {
@@ -175,6 +211,8 @@ li {
       height: auto;
     }
   }
+  /********************************/
+  ///DOWN MENU///
 
   &__down-menu {
     position: relative;
@@ -239,21 +277,24 @@ li {
   &:hover > .sub-menu {
     transform: scale(1);
   }
-
+  &:hover > a {
+    background: url("../images/icons/SubMenu.png") no-repeat right center;
+  }
   & > a {
     padding-right: 16 / $width * 100vw;
     background: url("../images/icons/SubMenu.png") no-repeat right center;
   }
 }
-////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/**********HERO****************/
 
-.first-screen {
+.hero {
   &__body {
     background-image: url("../images/OurSpecialists.jpg");
     background-position: right center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 500 / $width * 100vw;
+    height: 500 / $width * 100vw;
   }
 
   &__text {
@@ -283,40 +324,6 @@ li {
 
 ///////////////
 
-.btn {
-  flex-shrink: 0;
-  border: 1 / $width * 100vw solid #12958b;
-  border-radius: 6 / $width * 100vw;
-  overflow: hidden;
-  text-align: center;
-
-  a,
-  button {
-    display: block;
-    width: 100%;
-    height: 100%;
-    padding: 18 / $width * 100vw 26 / $width * 100vw;
-    font-weight: 500;
-    font-size: 16 / $width * 100vw;
-    line-height: 24 / $width * 100vw;
-    cursor: pointer;
-    transition: 0.7s;
-  }
-  &__primary > *,
-  &__secondary > *:hover {
-    background: #12958b;
-    color: #f6f9fc;
-  }
-
-  &__primary > *:hover,
-  &__secondary > * {
-    background: #f6f9fc;
-    color: #12958b;
-    border-radius: 6 / $width * 100vw;
-    border: none;
-    outline: none;
-  }
-}
 ///////////////////////////////////
 .find-job {
   background: #f6f9fc;
@@ -363,7 +370,7 @@ li {
     }
   }
 
-  &__input-city {
+  &__input-geolocation {
     background: #fff url("../images/icons/Geolocation.png") no-repeat center
       left 14 / $width * 100vw;
     width: 219 / $width * 100vw;
@@ -375,7 +382,7 @@ li {
     padding-left: 33 / $width * 100vw;
     color: #a2a2a2;
   }
-  &__input-key {
+  &__input-skills {
     width: 248 / $width * 100vw;
     height: 60 / $width * 100vw;
     border-radius: 6 / $width * 100vw;
@@ -423,7 +430,8 @@ li {
   justify-content: space-between;
 }
 
-//////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/**********CONTENT ****************/
 
 .content {
   background: #fff;
@@ -432,10 +440,7 @@ li {
     padding: 100 / $width * 100vw 0;
     display: grid;
     gap: 30 / $width * 100vw 30 / $width * 100vw;
-    grid-template-columns: repeat(
-      auto-fit,
-      minmax(320 / $width * 100vw, 570 / $width * 100vw)
-    );
+    grid-template-columns: 570 / $width * 100vw 570 / $width * 100vw;
     justify-content: center;
   }
 }
@@ -494,7 +499,7 @@ li {
     margin-bottom: 30 / $width * 100vw;
     letter-spacing: 0.6 / $width * 100vw;
   }
-
+  /**********IMG ****************/
   &__img {
     display: flex;
     justify-content: space-between;
@@ -521,7 +526,7 @@ li {
     }
   }
 
-  ////////////////
+  /**********FORM ****************/
 
   &__form {
     border-radius: 6 / $width * 100vw;
@@ -598,7 +603,7 @@ li {
     line-height: 21 / $width * 100vw;
     margin-left: 25 / $width * 100vw;
   }
-
+  /**********TESTIMONIALS ****************/
   &__testimonials {
     background: #f6f9fc url("../images/icons/right-quote.png") no-repeat right
       10 / $width * 100vw top 77 / $width * 100vw;
@@ -633,7 +638,8 @@ li {
     line-height: 23 / $width * 100vw;
   }
 }
-///////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/**********FOOTER ****************/
 
 .footer {
   background: #0a2540;
@@ -657,8 +663,9 @@ li {
       padding-top: 0;
       max-width: 220 / $width * 100vw;
       font-size: 12 / $width * 100vw;
-      text-align: center;
+      text-align: start;
       &__logo {
+        background-color: #12958b;
         max-height: 90 / $width * 100vw;
         img {
           height: 100%;
@@ -768,7 +775,8 @@ li {
     }
   }
 }
-////go top button
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/**********go top button ****************/
 
 .back-top {
   display: none;
