@@ -11,6 +11,8 @@ body {
   background-color: #f5f5f5;
   font-weight: 300;
   line-height: 1.0416666667vw;
+  overflow-x: hidden;
+  position: relative;
 }
 
 * {
@@ -243,7 +245,7 @@ li {
 
 .menu-item-has-children::after {
   content: "";
-  display: block;
+  display: none;
 }
 .menu-item-has-children:hover > .sub-menu {
   transform: scale(1);

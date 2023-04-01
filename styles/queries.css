@@ -333,6 +333,289 @@
 /* BELOW 944/ $width * 100vw (Tablets) */
 /**************************/
 @media (max-width: 944px) {
+  body {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5889830508vw;
+    color: #425466;
+    background-color: #f5f5f5;
+    font-weight: 300;
+    line-height: 2.1186440678vw;
+  }
+  .container-medium {
+    max-width: 89.406779661vw;
+  }
+  .telephone a {
+    padding-left: 2.5423728814vw;
+    font-size: 1.906779661vw;
+  }
+  .btn {
+    border-radius: 0.6355932203vw;
+  }
+  .btn a,
+  .btn button {
+    padding: 1.906779661vw 2.7542372881vw;
+    font-size: 1.6949152542vw;
+    line-height: 2.5423728814vw;
+  }
+  /**********HERO****************/
+  .hero {
+    padding-top: 50px;
+  }
+  .hero__body {
+    object-fit: cover;
+    height: 52.9661016949vw;
+    width: 127.1186440678vw;
+  }
+  .hero__text {
+    padding-top: 9.4279661017vw;
+    border-radius: 0.6355932203vw;
+    width: 47.6694915254vw;
+    margin-left: 2.6483050847vw;
+  }
+  .hero__text h1 {
+    font-size: 4.0254237288vw;
+    line-height: 6.7796610169vw;
+  }
+  .hero__text h2 {
+    margin-bottom: 2.1186440678vw;
+    font-size: 2.1186440678vw;
+    line-height: 4.1313559322vw;
+  }
+  .find-job__body h2 {
+    font-size: 2.5423728814vw;
+    line-height: 3.4957627119vw;
+    margin-bottom: 0.5296610169vw;
+  }
+  .find-job__body p {
+    font-size: 1.906779661vw;
+    line-height: 2.8601694915vw;
+    margin-bottom: 2.1186440678vw;
+  }
+  .find-job__body a {
+    font-size: 1.6949152542vw;
+    line-height: 2.5423728814vw;
+  }
+  .find-job__left, .find-job__right {
+    padding: 3.3898305085vw 1.5889830508vw 4.1313559322vw;
+  }
+  .find-job__left {
+    margin-left: 2.6483050847vw;
+  }
+  .find-job__left form > * {
+    margin-bottom: 1.5889830508vw;
+    margin-right: 0.1059322034vw;
+  }
+  .find-job__input-geolocation {
+    background: #fff url("../images/icons/Geolocation.png") no-repeat center left 1.4830508475vw;
+    width: 15.8898305085vw;
+    height: 6.3559322034vw;
+    border-radius: 0.6355932203vw;
+    padding-left: 3.4957627119vw;
+  }
+  .find-job__input-skills {
+    width: 19.0677966102vw;
+    height: 6.3559322034vw;
+    border-radius: 0.6355932203vw;
+    padding-left: 3.4957627119vw;
+  }
+  .find-job .btn__secondary {
+    width: 7.9449152542vw;
+    height: 6.3559322034vw;
+  }
+  .find-job__details {
+    margin-top: 1.5889830508vw;
+  }
+  .find-job__details a {
+    padding-right: 2.1186440678vw;
+  }
+  .find-job .top {
+    margin-top: 3.1779661017vw;
+  }
+  .find-job__right {
+    padding-left: 6.8855932203vw;
+    width: 96.3983050847vw;
+    height: 31.7796610169vw;
+  }
+  .find-job .btn__primary {
+    width: 17.1610169492vw;
+    height: 6.3559322034vw;
+  }
+  /**********CONTENT ****************/
+  .content__posts {
+    padding: 10.593220339vw 0;
+    gap: 3.1779661017vw 3.1779661017vw;
+    grid-template-columns: 92.1610169492vw;
+  }
+  .post {
+    /**********IMG ****************/
+    /**********FORM ****************/
+    /**********TESTIMONIALS ****************/
+  }
+  .post p {
+    font-size: 1.906779661vw;
+    line-height: 2.8601694915vw;
+    margin-bottom: 1.0593220339vw;
+  }
+  .post h2 {
+    font-size: 4.0254237288vw;
+    line-height: 5.5084745763vw;
+    margin-bottom: 3.1779661017vw;
+  }
+  .post h3 {
+    font-size: 2.5423728814vw;
+    line-height: 3.4957627119vw;
+    margin-bottom: 2.6483050847vw;
+    letter-spacing: 0.0741525424vw;
+  }
+  .post h4 {
+    margin-bottom: 1.0593220339vw;
+    font-size: 1.906779661vw;
+    line-height: 2.8601694915vw;
+  }
+  .post__subtitle {
+    font-size: 1.906779661vw;
+    line-height: 2.6483050847vw;
+    margin-bottom: 3.1779661017vw;
+    letter-spacing: 0.063559322vw;
+  }
+  .post__img {
+    margin-bottom: 4.2372881356vw;
+  }
+  .post__img--first, .post__img--second {
+    height: 38.1355932203vw;
+    border-radius: 0.6355932203vw;
+  }
+  .post__img--first {
+    margin-top: 3.1779661017vw;
+  }
+  .post__img--second {
+    margin-bottom: 3.1779661017vw;
+  }
+  .post__form {
+    border-radius: 0.6355932203vw;
+    border: 0.1059322034vw solid #12958b;
+    padding: 5.6144067797vw 3.1779661017vw;
+    margin-top: 1.906779661vw;
+  }
+  .post__form p {
+    font-size: 1.4830508475vw;
+    line-height: 2.2245762712vw;
+    margin-bottom: 1.0593220339vw;
+  }
+  .post__input-group {
+    margin-bottom: 2.2245762712vw;
+  }
+  .post__input-group input {
+    margin-bottom: 0.5296610169vw;
+    height: 6.3559322034vw;
+    border-radius: 0.6355932203vw;
+    padding: 1.906779661vw 1.8008474576vw 2.0127118644vw 3.9194915254vw;
+    box-shadow: inset 0 0 0.7415254237vw rgba(0, 0, 0, 0.1);
+    font-size: 1.5889830508vw;
+    line-height: 2.436440678vw;
+  }
+  .post__file {
+    max-width: 60.3813559322vw;
+    margin-bottom: 4.2372881356vw;
+  }
+  .post__file label {
+    min-width: 12.7118644068vw;
+    height: 4.2372881356vw;
+    padding: 0.8474576271vw 1.906779661vw;
+    border-radius: 0.6355932203vw;
+    border: 0.1059322034vw solid #969696;
+    line-height: 2.436440678vw;
+  }
+  .post__file-title {
+    max-width: 19.8093220339vw;
+    font-size: 1.2711864407vw;
+    line-height: 1.906779661vw;
+    margin-left: 1.0593220339vw;
+  }
+  .post__btn-title {
+    font-size: 1.4830508475vw;
+    line-height: 2.2245762712vw;
+    margin-left: 2.6483050847vw;
+  }
+  .post__testimonials {
+    background: #f6f9fc url("../images/icons/right-quote.png") no-repeat right 1.0593220339vw top 8.156779661vw;
+    padding: 4.2372881356vw;
+    margin-top: 1.906779661vw;
+  }
+  .post__testimonials p {
+    font-size: 1.6949152542vw;
+    line-height: 2.5423728814vw;
+  }
+  .post__position {
+    margin-bottom: 1.0593220339vw;
+    border-radius: 2.1186440678vw;
+    padding: 0.5296610169vw 1.906779661vw;
+    font-size: 1.4830508475vw;
+    line-height: 2.2245762712vw;
+  }
+  .post__address {
+    margin-bottom: 3.1779661017vw;
+    background: url("../images/icons/Geolocation-orange.png") no-repeat center left;
+    padding-left: 2.5423728814vw;
+    font-size: 1.5889830508vw;
+    line-height: 2.436440678vw;
+  }
+  /**********FOOTER ****************/
+  .footer__widgets {
+    padding: 5.9322033898vw 0 5.2966101695vw;
+  }
+  .footer__widgets--first {
+    max-width: 23.3050847458vw;
+    font-size: 1.2711864407vw;
+  }
+  .footer__widgets--first__logo {
+    max-height: 9.5338983051vw;
+  }
+  .footer__widgets--first .telephone {
+    margin-top: 1.8008474576vw;
+  }
+  .footer__widgets--first .telephone a {
+    font-size: 2.1186440678vw;
+  }
+  .footer__widgets--first .widget__adress {
+    padding-top: 1.5889830508vw;
+    font-size: 1.2711864407vw;
+    line-height: 2.1186440678vw;
+  }
+  .footer__column {
+    max-width: 28.6016949153vw;
+  }
+  .footer__copyright {
+    padding-top: 1.0593220339vw;
+    min-height: 4.2372881356vw;
+    font-size: 1.2711864407vw;
+  }
+  .widget h2,
+  .widget h3 {
+    margin-bottom: 1.5889830508vw;
+  }
+  .widget li {
+    margin-bottom: 1.5889830508vw;
+    font-size: 1.6949152542vw;
+  }
+  .widget__body {
+    padding-top: 2.436440678vw;
+    padding-left: 0.5296610169vw;
+  }
+  .widget__privacy {
+    margin-top: 3.1779661017vw;
+  }
+  .widget__social {
+    padding: 0 0.8474576271vw;
+  }
+  .widget__social h4 {
+    margin-bottom: 2.2245762712vw;
+  }
+  .social__item {
+    width: 4.2372881356vw;
+    height: 4.2372881356vw;
+  }
+  /**************NEW MENU*******************/
   .header__input, .header__lines {
     display: inline;
   }
@@ -424,7 +707,6 @@
     height: auto;
     top: 6.3559322034vw;
     right: -211.8644067797vw;
-    overflow-y: auto;
     text-align: center;
     transition: 0.8s;
     padding-left: 50%;
@@ -566,9 +848,20 @@
     margin: 0;
     line-height: 24px;
   }
+  .menu-item-has-children {
+    position: relative;
+  }
   .menu-item-has-children::after {
     content: "";
-    display: none;
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    border: 2px solid #0a2540;
+    background: url("../images/icons/SubMenu.png") no-repeat right 4px center;
   }
   .menu-item-has-children:hover > .sub-menu {
     transform: scale(1);
