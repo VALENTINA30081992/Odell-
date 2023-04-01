@@ -453,7 +453,7 @@
     padding-top: 50px;
     &__body {
       object-fit: cover;
-      height: 500 / $width * 100vw;
+      height: 600 / $width * 100vw;
       width: 1200 / $width * 100vw;
     }
 
@@ -570,7 +570,7 @@
     }
 
     h2 {
-      font-size: 38 / $width * 100vw;
+      font-size: 32 / $width * 100vw;
       line-height: 52 / $width * 100vw;
       margin-bottom: 30 / $width * 100vw;
     }

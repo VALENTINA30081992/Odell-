@@ -76,6 +76,7 @@ li {
     line-height: 24 / $width * 100vw;
     cursor: pointer;
     transition: 0.7s;
+    z-index: 155;
   }
   &__primary > *,
   &__secondary > *:hover {

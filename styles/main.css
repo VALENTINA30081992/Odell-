@@ -75,6 +75,7 @@ li {
   line-height: 1.25vw;
   cursor: pointer;
   transition: 0.7s;
+  z-index: 155;
 }
 .btn__primary > *, .btn__secondary > *:hover {
   background: #12958b;
