@@ -953,19 +953,19 @@
   }
   .find-job__input-geolocation {
     background: #fff url("../images/icons/Geolocation.png") no-repeat center left 1.9886363636vw;
-    width: 25.5681818182vw;
+    width: 85.2272727273vw;
     height: 8.5227272727vw;
     border-radius: 0.8522727273vw;
     padding-left: 4.6875vw;
   }
   .find-job__input-skills {
-    width: 35.5113636364vw;
+    width: 85.2272727273vw;
     height: 8.5227272727vw;
     border-radius: 0.8522727273vw;
     padding-left: 4.6875vw;
   }
   .find-job .btn__secondary {
-    width: 17.7556818182vw;
+    width: 85.2272727273vw;
     height: 8.5227272727vw;
   }
   .find-job__details {
@@ -985,6 +985,10 @@
   .find-job .btn__primary {
     width: 85.2272727273vw;
     height: 8.5227272727vw;
+  }
+  .find-job form {
+    display: flex;
+    flex-direction: column;
   }
   /**********CONTENT ****************/
   .content__posts {
@@ -1061,6 +1065,7 @@
     line-height: 3.2670454545vw;
   }
   .post__file {
+    flex-direction: column;
     max-width: 80.9659090909vw;
     margin-bottom: 5.6818181818vw;
   }
@@ -1073,13 +1078,13 @@
     line-height: 3.2670454545vw;
   }
   .post__file-title {
-    max-width: 26.5625vw;
+    max-width: 71.0227272727vw;
     font-size: 1.7045454545vw;
     line-height: 2.5568181818vw;
     margin-left: 1.4204545455vw;
   }
   .post .btn__primary {
-    width: 17.7556818182vw;
+    width: 31.9602272727vw;
     height: 8.5227272727vw;
   }
   .post__btn-title {
@@ -1112,6 +1117,8 @@
   }
   /**********FOOTER ****************/
   .footer__widgets {
+    display: grid;
+    grid-template-columns: 85.7954545455vw;
     padding: 7.9545454545vw 0 7.1022727273vw;
   }
   .footer__widgets--first {
@@ -1134,6 +1141,7 @@
   }
   .footer__column {
     max-width: 38.3522727273vw;
+    flex-direction: column;
   }
   .footer__copyright {
     padding-top: 1.4204545455vw;
@@ -1156,7 +1164,10 @@
     margin-top: 4.2613636364vw;
   }
   .widget__social {
+    margin-top: 4.9715909091vw;
     padding: 0 1.1363636364vw;
+    align-self: flex-start;
+    text-align: left;
   }
   .widget__social h4 {
     margin-bottom: 2.9829545455vw;

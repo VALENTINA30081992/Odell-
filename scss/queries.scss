@@ -1158,20 +1158,20 @@
     &__input-geolocation {
       background: #fff url("../images/icons/Geolocation.png") no-repeat center
         left 14 / $width * 100vw;
-      width: 180 / $width * 100vw;
+      width: 600 / $width * 100vw;
       height: 60 / $width * 100vw;
       border-radius: 6 / $width * 100vw;
       padding-left: 33 / $width * 100vw;
     }
     &__input-skills {
-      width: 250 / $width * 100vw;
+      width: 600 / $width * 100vw;
       height: 60 / $width * 100vw;
       border-radius: 6 / $width * 100vw;
       padding-left: 33 / $width * 100vw;
     }
 
     .btn__secondary {
-      width: 125 / $width * 100vw;
+      width: 600 / $width * 100vw;
       height: 60 / $width * 100vw;
     }
     &__details {
@@ -1194,7 +1194,10 @@
       height: 60 / $width * 100vw;
     }
   }
-
+  .find-job form {
+    display: flex;
+    flex-direction: column;
+  }
   ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   /**********CONTENT ****************/
 
@@ -1285,6 +1288,7 @@
     }
 
     &__file {
+      flex-direction: column;
       max-width: 570 / $width * 100vw;
       margin-bottom: 40 / $width * 100vw;
       label {
@@ -1297,13 +1301,13 @@
       }
     }
     &__file-title {
-      max-width: 187 / $width * 100vw;
+      max-width: 500 / $width * 100vw;
       font-size: 12 / $width * 100vw;
       line-height: 18 / $width * 100vw;
       margin-left: 10 / $width * 100vw;
     }
     .btn__primary {
-      width: 125 / $width * 100vw;
+      width: 225 / $width * 100vw;
       height: 60 / $width * 100vw;
     }
     &__btn-title {
@@ -1345,6 +1349,9 @@
 
   .footer {
     &__widgets {
+      display: grid;
+      grid-template-columns: 604 / $width * 100vw;
+
       padding: 56 / $width * 100vw 0 50 / $width * 100vw;
       &--first {
         max-width: 220 / $width * 100vw;
@@ -1371,6 +1378,7 @@
   .footer {
     &__column {
       max-width: 270 / $width * 100vw;
+      flex-direction: column;
     }
     &__copyright {
       padding-top: 10 / $width * 100vw;
@@ -1399,7 +1407,10 @@
     }
 
     &__social {
+      margin-top: 35 / $width * 100vw;
       padding: 0 8 / $width * 100vw;
+      align-self: flex-start;
+      text-align: left;
 
       h4 {
         margin-bottom: 21 / $width * 100vw;
