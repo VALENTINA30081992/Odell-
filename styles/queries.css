@@ -69,10 +69,11 @@
     line-height: 1.7857142857vw;
   }
   /**********HERO****************/
+  .hero {
+    max-width: 100vw;
+  }
   .hero__body {
-    object-fit: cover;
     height: 37.2023809524vw;
-    width: 119.0476190476vw;
   }
   .hero__text {
     padding-top: 6.6220238095vw;
@@ -88,6 +89,18 @@
     margin-bottom: 1.4880952381vw;
     font-size: 1.6369047619vw;
     line-height: 2.9017857143vw;
+  }
+  .heroimg {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    height: 100%;
+    width: 100.4464285714vw;
+    z-index: 1;
   }
   .find-job__body h2 {
     font-size: 1.7857142857vw;
@@ -362,9 +375,7 @@
     padding-top: 50px;
   }
   .hero__body {
-    object-fit: cover;
     height: 65.6779661017vw;
-    width: 127.1186440678vw;
   }
   .hero__text {
     padding-top: 9.4279661017vw;
@@ -380,6 +391,11 @@
     margin-bottom: 2.1186440678vw;
     font-size: 2.1186440678vw;
     line-height: 4.1313559322vw;
+  }
+  .heroimg {
+    width: 170vw;
+    z-index: 2;
+    left: -70%;
   }
   .find-job__body h2 {
     font-size: 2.5423728814vw;
@@ -922,6 +938,10 @@
     margin-bottom: 2.8409090909vw;
     font-size: 2.8409090909vw;
     line-height: 5.5397727273vw;
+  }
+  .heroimg {
+    width: 240vw;
+    left: -140%;
   }
   .find-job__body {
     flex-direction: column;

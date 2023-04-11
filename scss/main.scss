@@ -292,12 +292,15 @@ li {
 /**********HERO****************/
 
 .hero {
+  max-width: 100vw;
+  height: auto;
+  margin-top: 0 auto;
+  position: relative;
   &__body {
-    background-image: url("../images/OurSpecialists.jpg");
-    background-position: right center;
-    background-repeat: no-repeat;
     background-size: cover;
     height: 500 / $width * 100vw;
+    position: relative;
+    z-index: 5;
   }
 
   &__text {
@@ -323,6 +326,17 @@ li {
       color: #12958b;
     }
   }
+}
+.heroimg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
 }
 
 ///////////////
