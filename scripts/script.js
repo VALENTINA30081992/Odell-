@@ -3,7 +3,7 @@ jQuery(document).ready(function ($) {
   // go-top
 
   $(window).on("scroll", function () {
-    if ($(window).scrollTop() > 800) {
+    if ($(window).scrollTop() > 300) {
       $(".back-top").show();
     } else {
       $(".back-top").hide();

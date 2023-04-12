@@ -109,7 +109,7 @@ li {
   }
 
   &__container {
-    padding: 0 15 / $width * 100vw;
+    padding: 0 13.8 / $width * 100vw;
     max-width: 1192 / $width * 100vw;
     margin: 0 auto;
     background: none;
@@ -805,6 +805,7 @@ li {
   background-color: rgba(#12958b, 0.4);
   border-radius: 5 / $width * 100vw;
   transition: 0.3s;
+  z-index: 150;
 
   &:hover {
     background-color: rgba(#12958b, 0.9);

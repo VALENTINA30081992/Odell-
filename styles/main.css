@@ -102,7 +102,7 @@ li {
   overflow-x: clip;
 }
 .header__container {
-  padding: 0 0.78125vw;
+  padding: 0 0.71875vw;
   max-width: 62.0833333333vw;
   margin: 0 auto;
   background: none;
@@ -722,6 +722,7 @@ li {
   background-color: rgba(18, 149, 139, 0.4);
   border-radius: 0.2604166667vw;
   transition: 0.3s;
+  z-index: 150;
 }
 .back-top:hover {
   background-color: rgba(18, 149, 139, 0.9);
