@@ -71,7 +71,7 @@ li {
     display: block;
     width: 100%;
     height: 100%;
-    padding: 16 / $width * 100vw 2 / $width * 100vw;
+    padding: 18 / $width * 100vw 2 / $width * 100vw;
     font-weight: 500;
     font-size: 16 / $width * 100vw;
     line-height: 24 / $width * 100vw;
@@ -196,7 +196,7 @@ li {
 
       a {
         display: block;
-        margin-right: 30 / $width * 100vw;
+        margin-right: 1.52015vw;
         font-size: 15 / $width * 100vw;
         text-decoration: underline;
         text-decoration-color: transparent;
@@ -208,6 +208,18 @@ li {
       }
       &::after {
         content: "|";
+      }
+      & > li:nth-of-type(1) > a {
+        margin-right: 1.58vw;
+      }
+      & > li:nth-of-type(2) > a {
+        margin-right: 1.68vw;
+      }
+      & > li:nth-of-type(3) > a {
+        margin-right: 1.58vw;
+      }
+      & > li:nth-of-type(4) > a {
+        margin-right: 1.28vw;
       }
     }
     & .telephone {
@@ -233,7 +245,7 @@ li {
       z-index: 120;
 
       a {
-        margin-left: 30 / $width * 100vw;
+        margin-left: 1.58vw;
         font-weight: 400;
         font-size: 16 / $width * 100vw;
         color: #000;
@@ -243,13 +255,17 @@ li {
           opacity: 0.5;
         }
       }
+
       & > li:nth-of-type(1) > a {
-        margin-left: 0;
+        margin-left: 1.58vw;
       }
       & > li:nth-of-type(2) > a,
       & > li:nth-of-type(3) > a {
         font-weight: 600;
         color: #ee1c25;
+      }
+      & > li:nth-of-type(7) > a {
+        margin-left: 1.35vw;
       }
     }
   }
@@ -288,7 +304,7 @@ li {
     }
 
     & > a {
-      padding-right: 16 / $width * 100vw;
+      padding-right: 0.74vw;
       background: url("../images/icons/SubMenu.png") no-repeat right center;
     }
   }
@@ -394,21 +410,21 @@ li {
 
   &__input-geolocation {
     background: #fff url("../images/icons/Geolocation.png") no-repeat center
-      left 14 / $width * 100vw;
+      left 17 / $width * 100vw;
     width: 219 / $width * 100vw;
     height: 60 / $width * 100vw;
     border-radius: 6 / $width * 100vw;
     border: none;
     outline: none;
     cursor: pointer;
-    padding-left: 33 / $width * 100vw;
+    padding-left: 36 / $width * 100vw;
     color: #a2a2a2;
   }
   &__input-skills {
     width: 248 / $width * 100vw;
     height: 60 / $width * 100vw;
     border-radius: 6 / $width * 100vw;
-    padding-left: 33 / $width * 100vw;
+    padding-left: 35 / $width * 100vw;
     border: none;
     outline: none;
     cursor: pointer;
