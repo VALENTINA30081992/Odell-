@@ -508,6 +508,7 @@ li {
   border-radius: 0.3125vw;
   border: 0.0520833333vw solid #12958b;
   padding: 2.7604166667vw 1.5625vw;
+  padding-right: 10px;
   margin-top: 0.9375vw;
 }
 .publication__form p {
@@ -519,11 +520,11 @@ li {
 .publication__input-group {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 1.09375vw;
+  margin-bottom: 0.7291666667vw;
 }
 .publication__input-group input {
-  flex-basis: 50%;
-  margin-bottom: 0.2604166667vw;
+  flex-basis: 47%;
+  margin-bottom: 0.4166666667vw;
   height: 3.125vw;
   width: 100%;
   border-radius: 0.3125vw;
@@ -536,6 +537,7 @@ li {
   border: none;
   outline: none;
   cursor: pointer;
+  margin-right: 11px;
 }
 .publication__file {
   display: flex;
@@ -546,7 +548,7 @@ li {
   min-width: 6.25vw;
   display: block;
   height: 2.0833333333vw;
-  padding: 0.4166666667vw 0.9375vw;
+  padding: 0.4166666667vw 0;
   border-radius: 0.3125vw;
   background: #969696;
   border: 0.0520833333vw solid #969696;
@@ -562,7 +564,8 @@ li {
   max-width: 9.7395833333vw;
   font-size: 0.625vw;
   line-height: 0.9375vw;
-  margin-left: 0.5208333333vw;
+  margin-left: 0.6770833333vw;
+  margin-top: 2px;
 }
 .publication__btn {
   display: flex;

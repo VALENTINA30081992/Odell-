@@ -571,6 +571,7 @@ li {
     border-radius: 6 / $width * 100vw;
     border: 1 / $width * 100vw solid #12958b;
     padding: 53 / $width * 100vw 30 / $width * 100vw;
+    padding-right: 10px;
     margin-top: 18 / $width * 100vw;
     p {
       font-weight: 300;
@@ -583,11 +584,11 @@ li {
   &__input-group {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 21 / $width * 100vw;
+    margin-bottom: 14 / $width * 100vw;
 
     input {
-      flex-basis: 50%;
-      margin-bottom: 5 / $width * 100vw;
+      flex-basis: 47%;
+      margin-bottom: 8 / $width * 100vw;
       height: 60 / $width * 100vw;
       width: 100%;
       border-radius: 6 / $width * 100vw;
@@ -601,6 +602,7 @@ li {
       border: none;
       outline: none;
       cursor: pointer;
+      margin-right: 11px;
     }
   }
 
@@ -612,7 +614,7 @@ li {
       min-width: 120 / $width * 100vw;
       display: block;
       height: 40 / $width * 100vw;
-      padding: 8 / $width * 100vw 18 / $width * 100vw;
+      padding: 8 / $width * 100vw 0;
       border-radius: 6 / $width * 100vw;
       background: #969696;
       border: 1 / $width * 100vw solid #969696;
@@ -630,7 +632,8 @@ li {
     max-width: 187 / $width * 100vw;
     font-size: 12 / $width * 100vw;
     line-height: 18 / $width * 100vw;
-    margin-left: 10 / $width * 100vw;
+    margin-left: 13 / $width * 100vw;
+    margin-top: 2px;
   }
   &__btn {
     display: flex;
